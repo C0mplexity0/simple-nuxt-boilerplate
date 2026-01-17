@@ -10,12 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@ark-ui/vue": "^5.30.0",
     "@nuxt/a11y": "1.0.0-alpha.1",
     "@nuxt/eslint": "1.12.1",
     "@nuxt/fonts": "0.12.1",
     "@nuxt/image": "2.0.0",
+    "@tailwindcss/vite": "^4.1.18",
     "eslint": "^9.39.2",
     "nuxt": "^4.2.2",
+    "tailwindcss": "^4.1.18",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4"
   }

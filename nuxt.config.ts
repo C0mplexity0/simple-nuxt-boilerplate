@@ -1,3 +1,5 @@
+import tailwindcss from "@tailwindcss/vite";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
@@ -5,6 +7,11 @@ export default defineNuxtConfig({
 
   modules: ["@nuxt/a11y", "@nuxt/eslint", "@nuxt/fonts", "@nuxt/image"],
 
+  vite: {
+    plugins: [tailwindcss()],
+  },
+
+  css: ["./app/assets/css/main.css"],
   app: {
     head: {
       title: "Simple Nuxt Boilerplate",
